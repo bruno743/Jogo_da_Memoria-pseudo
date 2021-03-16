@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#008b8b"
+    tools:context=".fimDeJogo">
+
+    <Button
+        android:id="@+id/b02"
+        android:layout_width="164dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="#120a8f"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Exit"
+        android:textColor="#ff0000"
+        android:textSize="24dp"
+        android:onClick="encerrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b01" />
+
+    <Button
+        android:id="@+id/b01"
+        android:layout_width="164dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="220dp"
+        android:backgroundTint="#120a8f"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Reset"
+        android:textColor="#ffa500"
+        android:textSize="24dp"
+        android:onClick="voltar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
